@@ -1,4 +1,4 @@
-# 🚀 Multi-Agent Startup Research Assistant
+# Multi-Agent Startup Research Assistant
 
 > **AI-powered business intelligence platform that analyzes startup ideas using 6 specialized AI agents, LangGraph orchestration, RAG knowledge retrieval, and real-time web search.**
 
@@ -10,22 +10,22 @@
 
 ---
 
-## 🎯 What It Does
+##  What It Does
 
 Enter a startup idea like *"AI-powered handmade craft marketplace"* and get a full business intelligence report in minutes:
 
 | Agent | Output |
 |-------|--------|
-| 📊 **Market Research** | TAM/SAM/SOM, trends, customer segments |
-| 🕵️ **Competitor Intel** | Real competitors, pricing, market gaps |
-| ⚖️ **SWOT Analysis** | Strategic strengths, weaknesses, recommendations |
-| 💰 **Revenue Model** | Pricing tiers, revenue streams, Year 1 estimate |
-| 🚀 **GTM Strategy** | Launch plan, channels, acquisition roadmap |
-| 📋 **Report Agent** | Executive summary, viability scores, PDF export |
+| **Market Research** | TAM/SAM/SOM, trends, customer segments |
+|  **Competitor Intel** | Real competitors, pricing, market gaps |
+|  **SWOT Analysis** | Strategic strengths, weaknesses, recommendations |
+|  **Revenue Model** | Pricing tiers, revenue streams, Year 1 estimate |
+|  **GTM Strategy** | Launch plan, channels, acquisition roadmap |
+|  **Report Agent** | Executive summary, viability scores, PDF export |
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User Input
@@ -50,7 +50,7 @@ Each agent reads the shared `ResearchState` TypedDict and writes back partial up
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -70,7 +70,7 @@ Each agent reads the shared `ResearchState` TypedDict and writes back partial up
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 startup-research-assistant/
@@ -116,7 +116,7 @@ startup-research-assistant/
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. Clone & Install
 
@@ -148,7 +148,7 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 🚀 Deploy to Streamlit Cloud
+##  Deploy to Streamlit Cloud
 
 1. Push this repo to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io)
@@ -158,7 +158,7 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 💡 Key AI Engineering Concepts Demonstrated
+##  Key AI Engineering Concepts Demonstrated
 
 | Concept | Implementation |
 |---------|----------------|
@@ -173,7 +173,7 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 📝 Resume Bullet Points
+##  Resume Bullet Points
 
 ```
 • Built a production-grade Multi-Agent AI system using LangGraph and Google Gemini that 
@@ -195,7 +195,7 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 🎤 Recruiter Q&A
+##  Recruiter Q&A
 
 **Q: What is LangGraph?**
 > LangGraph is a library for building stateful, multi-agent AI workflows as directed graphs. Each node is a Python function (agent), edges define execution order, and all agents communicate through a shared typed state dict.
